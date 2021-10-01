@@ -25,6 +25,8 @@
 | git fetch    | 从远程仓库获取数据 |
 |              |                    |
 
+git 乱码：git bash中输入【git config --global core.quotepath false】或者在git的全局配置文件中，输入【quotepath = false】
+
 # Push & Pull —— Git 远程仓库！
 
 ## git fetch
