@@ -14,7 +14,7 @@
 | git describe c1             | 显示离c1最近的标签描述             |
 | git reset HEAD~1            | 向上移动分支C0C1C2main*->C0C1main* |
 | git revert HEAD             | 撤销 C0C1C2main*->C0C1C2C2'main*   |
-|                             |                                    |
+| git branch bugWork main^^2^ |                                    |
 
 ## 
 
