@@ -27,6 +27,24 @@
 
 git 乱码：git bash中输入【git config --global core.quotepath false】或者在git的全局配置文件中，输入【quotepath = false】
 
+当我们需要删除暂存区或分支上的文件，但是本地 ‘需要’ 这个文件，只是 ‘不希望加入版本控制’，可以使用 ‘git rm -r --cached’
+git rm -r --cached target-dir
+
+当我们需要删除暂存区或分支上的文件，同时工作区 ‘不需要’ 这个文件，可以使用 ‘git rm’
+git rm file
+
+# git忽略某个目录或文件不上传
+
+1. 在目录中右键选择git bash Here
+
+2. 然后输入touch .gitignore
+3. 输入要忽略的文件或文件夹，如
+
+```
+.idea
+.idea/*
+```
+
 # Push & Pull —— Git 远程仓库！
 
 ## git fetch
